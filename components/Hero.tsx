@@ -83,26 +83,26 @@ const Hero = () => {
           className="text-center max-w-4xl mx-auto"
         >
           {/* Greeting */}
-          <motion.div variants={itemVariants} className="mb-6">
+          <motion.div variants={itemVariants as any} className="mb-6">
             <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium border border-primary/20">
               Développeur Full-Stack
             </span>
           </motion.div>
 
           {/* Name */}
-          <motion.h1 variants={itemVariants} className="text-5xl md:text-7xl font-bold mb-6">
+          <motion.h1 variants={itemVariants as any} className="text-5xl md:text-7xl font-bold mb-6">
             <span className="gradient-text">Jeanos</span>
             <br />
             <span className="text-foreground">Ouamouno</span>
           </motion.h1>
 
           {/* Title */}
-          <motion.p variants={itemVariants} className="text-xl md:text-2xl text-muted-foreground mb-8 font-medium">
+          <motion.p variants={itemVariants as any} className="text-xl md:text-2xl text-muted-foreground mb-8 font-medium">
             Développeur Full-Stack & Créateur d&apos;expériences numériques
           </motion.p>
 
           {/* Typing Animation */}
-          <motion.div variants={itemVariants} className="mb-8">
+          <motion.div variants={itemVariants as any} className="mb-8">
             <p className="text-lg md:text-xl font-mono text-neon-blue min-h-[2rem]">
               {text}
               <span className="animate-pulse">|</span>
@@ -110,7 +110,7 @@ const Hero = () => {
           </motion.div>
 
           {/* Info Cards */}
-          <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 max-w-2xl mx-auto">
+          <motion.div variants={itemVariants as any} className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 max-w-2xl mx-auto">
             <div className="glass-effect rounded-lg p-4 text-center">
               <MapPin className="h-5 w-5 text-neon-blue mx-auto mb-2" />
               <p className="text-sm text-muted-foreground">Conakry, Guinée</p>
@@ -145,12 +145,12 @@ const Hero = () => {
             </Button>
           </motion.div>
 
-          {/* Social Links */}
+          {/* Social Links - Liens sociaux structurés */}
           <motion.div variants={itemVariants as any} className="flex justify-center space-x-6 mb-12">
             {[
-              { icon: Github, href: "#", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
-              { icon: Mail, href: "mailto:Jeank.ouamouno@fasosmart.com", label: "Email" },
+              { icon: Github, href: "https://github.com/Jeanos2004", label: "GitHub de Jeanos Ouamouno" },
+              { icon: Linkedin, href: "https://linkedin.com/in/jeanos-ouamouno", label: "LinkedIn de Jeanos Ouamouno" },
+              { icon: Mail, href: "mailto:Jeank.ouamouno@fasosmart.com", label: "Contacter Jeanos Ouamouno par email" },
             ].map(({ icon: Icon, href, label }) => (
               <motion.a
                 key={label}
@@ -158,6 +158,9 @@ const Hero = () => {
                 whileHover={{ scale: 1.2, rotate: 5 }}
                 whileTap={{ scale: 0.9 }}
                 className="p-3 rounded-full glass-effect hover:bg-primary/10 transition-all duration-300 group"
+                aria-label={label}
+                rel="noopener noreferrer"
+                target={href.startsWith('http') ? '_blank' : undefined}
               >
                 <Icon className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-colors" />
                 <span className="sr-only">{label}</span>
