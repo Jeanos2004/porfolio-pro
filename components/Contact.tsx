@@ -31,7 +31,7 @@ const Contact = () => {
   ]
 
   return (
-    <section id="contact" className="py-20 relative overflow-hidden">
+    <section id="contact" className="py-20 relative overflow-hidden" role="main">
       <div className="absolute inset-0 bg-gradient-to-b from-muted/20 to-background" />
 
       <div className="container mx-auto px-4 relative z-10">
@@ -43,10 +43,11 @@ const Contact = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Restons en <span className="gradient-text">contact</span>
+            Contacter <span className="gradient-text">Jeanos Ouamouno</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Une idée de projet ? Une opportunité ? N&apos;hésitez pas à me contacter !
+            Développeur full-stack à Conakry disponible pour vos projets web et mobile. 
+            Une idée de projet ? Une opportunité ? N&apos;hésitez pas à contacter Jeanos Ouamouno !
           </p>
         </motion.div>
 

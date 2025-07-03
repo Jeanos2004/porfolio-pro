@@ -1,0 +1,38 @@
+{
+  "name": "Jeanos Ouamouno - Portfolio Développeur Full-Stack",
+  "short_name": "Jeanos Portfolio",
+  "description": "Portfolio de Jeanos Ouamouno, développeur web et mobile full-stack basé à Conakry, Guinée",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0F",
+  "theme_color": "#00D4FF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "lang": "fr-FR",
+  "categories": ["development", "portfolio", "technology"],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "360x640",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+} 
