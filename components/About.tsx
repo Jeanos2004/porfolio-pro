@@ -127,12 +127,14 @@ const About = () => {
                     Mon parcours
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Étudiant en développement logiciel à l'Université Gamal Abdel Nasser de Conakry, je suis passionné
-                    par la création d'expériences numériques innovantes.
+                    <strong>Jeanos Ouamouno</strong>, étudiant en développement logiciel à l&apos;Université Gamal Abdel Nasser de Conakry, 
+                    passionné par la création d&apos;expériences numériques innovantes. Basé à <strong>Conakry, Guinée</strong>, 
+                    je me spécialise dans le développement web et mobile avec des technologies modernes.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Mon voyage dans la tech a commencé par curiosité et s&apos;est transformé en véritable passion. J&apos;aime
-                    résoudre des problèmes complexes et créer des solutions élégantes.
+                    Mon voyage dans la tech a commencé par curiosité et s&apos;est transformé en véritable passion. En tant que 
+                    <strong>développeur full-stack</strong>, j&apos;aime résoudre des problèmes complexes avec React, Next.js, Node.js 
+                    et créer des solutions élégantes et performantes.
                   </p>
                 </div>
 
