@@ -48,7 +48,7 @@ const Projects = () => {
             Mes <span className="gradient-text">Projets</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Voici quelques projets sur lesquels j'ai travaillé.
+            Voici quelques projets sur lesquels j&apos;ai travaillé.
           </p>
         </motion.div>
 

@@ -46,7 +46,7 @@ const Contact = () => {
             Restons en <span className="gradient-text">contact</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Une idée de projet ? Une opportunité ? N'hésitez pas à me contacter !
+            Une idée de projet ? Une opportunité ? N&apos;hésitez pas à me contacter !
           </p>
         </motion.div>
 

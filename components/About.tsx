@@ -131,7 +131,7 @@ const About = () => {
                     par la création d'expériences numériques innovantes.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Mon voyage dans la tech a commencé par curiosité et s'est transformé en véritable passion. J'aime
+                    Mon voyage dans la tech a commencé par curiosité et s&apos;est transformé en véritable passion. J&apos;aime
                     résoudre des problèmes complexes et créer des solutions élégantes.
                   </p>
                 </div>
@@ -253,9 +253,9 @@ const About = () => {
           <Card className="max-w-2xl mx-auto glass-effect border-primary/20">
             <CardContent className="p-8">
               <blockquote className="text-xl md:text-2xl font-medium text-center mb-4">
-                <span className="text-6xl text-primary/20 leading-none">"</span>
-                <span className="gradient-text">La technologie n'est limitée que par notre imagination</span>
-                <span className="text-6xl text-primary/20 leading-none">"</span>
+                <span className="text-6xl text-primary/20 leading-none">&ldquo;</span>
+                <span className="gradient-text">La technologie n&apos;est limitée que par notre imagination</span>
+                <span className="text-6xl text-primary/20 leading-none">&rdquo;</span>
               </blockquote>
               <cite className="text-muted-foreground">— Ma philosophie de développeur</cite>
             </CardContent>

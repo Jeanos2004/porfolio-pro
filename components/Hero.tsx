@@ -83,26 +83,26 @@ const Hero = () => {
           className="text-center max-w-4xl mx-auto"
         >
           {/* Greeting */}
-          <motion.div variants={itemVariants as any} className="mb-6">
+          <motion.div variants={itemVariants} className="mb-6">
             <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium border border-primary/20">
               Développeur Full-Stack
             </span>
           </motion.div>
 
           {/* Name */}
-          <motion.h1 variants={itemVariants as any} className="text-5xl md:text-7xl font-bold mb-6">
+          <motion.h1 variants={itemVariants} className="text-5xl md:text-7xl font-bold mb-6">
             <span className="gradient-text">Jeanos</span>
             <br />
             <span className="text-foreground">Ouamouno</span>
           </motion.h1>
 
           {/* Title */}
-          <motion.p variants={itemVariants as any} className="text-xl md:text-2xl text-muted-foreground mb-8 font-medium">
-            Développeur Full-Stack & Créateur d'expériences numériques
+          <motion.p variants={itemVariants} className="text-xl md:text-2xl text-muted-foreground mb-8 font-medium">
+            Développeur Full-Stack & Créateur d&apos;expériences numériques
           </motion.p>
 
           {/* Typing Animation */}
-          <motion.div variants={itemVariants as any} className="mb-8">
+          <motion.div variants={itemVariants} className="mb-8">
             <p className="text-lg md:text-xl font-mono text-neon-blue min-h-[2rem]">
               {text}
               <span className="animate-pulse">|</span>
@@ -110,7 +110,7 @@ const Hero = () => {
           </motion.div>
 
           {/* Info Cards */}
-          <motion.div variants={itemVariants as any} className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 max-w-2xl mx-auto">
+          <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 max-w-2xl mx-auto">
             <div className="glass-effect rounded-lg p-4 text-center">
               <MapPin className="h-5 w-5 text-neon-blue mx-auto mb-2" />
               <p className="text-sm text-muted-foreground">Conakry, Guinée</p>
@@ -129,7 +129,7 @@ const Hero = () => {
           <motion.div variants={itemVariants as any} className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button
               size="lg"
-              className="bg-gradient-to-r from-blue-500 to-blue-600 dark:bg-blue-500 dark:hover:bg-blue-600 hover:from-blue-500 hover:to-blue-600 text-white font-medium px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/25"
+              className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-blue/80 hover:to-neon-purple/80 text-white font-medium px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/25"
               onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
             >
               Voir mes projets

@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="text-center text-sm text-muted-foreground">
             <p className="mb-2">© 2024 Jeanos Ouamouno. Tous droits réservés.</p>
             <p className="font-mono text-xs">
-              <span className="gradient-text">"Coder le futur, une ligne à la fois."</span>
+              <span className="gradient-text">&ldquo;Coder le futur, une ligne à la fois.&rdquo;</span>
             </p>
           </div>
         </motion.div>
